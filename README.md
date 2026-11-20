@@ -5,6 +5,7 @@
   <a href="https://icml.cc/virtual/2026/poster/xxxx"><img src="https://img.shields.io/badge/ICML-2026-blue.svg" alt="ICML 2026"></a>
   <a href="https://github.com/BeibeiX0/WZ-LLM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
   <a href="https://leanprover-community.github.io/"><img src="https://img.shields.io/badge/Lean-4-blueviolet.svg" alt="Lean 4"></a>
+  <a href="https://github.com/BeibeiX0/LCIBench"><img src="https://img.shields.io/badge/Benchmark-LCIBench-orange.svg" alt="LCIBench"></a>
 </p>
 
 <p align="center">
@@ -20,7 +21,7 @@
 - **WZ-Sketch**: A symbolic decomposition engine (built on SageMath/CAS) that converts WZ certificates into structured, Lean-compilable proof sketches with well-defined subgoals.
 - **WZ-Prover**: A specialized 8B-parameter prover trained via cold-start SFT on expert-verified seed proofs, bootstrapped iteration, and DAPO reinforcement learning refinement.
 - **Two-Route Solving**: A hybrid strategy combining a sketch-guided route (for WZ-covered identities) and a direct route (for WZ-uncovered identities).
-- **LCI-Test Benchmark**: A new benchmark of 100 combinatorial identities formalized in Lean 4, spanning summation, product, and q-series identities.
+- **[LCIBench](https://github.com/BeibeiX0/LCIBench) (LCI-Test in the paper)**: A benchmark of 100 combinatorial identities formalized in Lean 4, spanning summation, product, and q-series identities. The benchmark is now publicly available, with standalone Lean theorem files, JSONL data, and evaluation instructions.
 
 ## 🛠️ Installation
 
